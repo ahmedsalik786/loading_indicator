@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading symbol</title>
+    <style>
+        .loading{
+            top: 200px;
+            left: 200px;
+            border: 10px solid white;
+            border-top: 10px solid greenyellow;
+            padding: 10px;
+            position: absolute;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            from { transform: rotateZ(0); }
+            to { transform: rotateZ(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading"></div>
+</body>
+</html>
